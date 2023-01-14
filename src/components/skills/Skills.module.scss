@@ -1,0 +1,120 @@
+.skills_container {
+    @media (min-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem; 
+  }
+  
+  @media (min-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem; 
+  }
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.skillsBox_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  width: 303.1px;
+  height: 124px;
+  margin-bottom: 50px;
+}
+
+.skills_box1 {
+   @media (min-width: 900px) {
+    width: 302px;
+    height: 16px;
+    box-sizing: border-box;
+    border: 1px solid #c9fa75;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    width: 302px;
+    height: 16px;
+    box-sizing: border-box;
+    border: 1px solid #c9fa75;
+    margin-bottom: 20px;  
+  }
+  
+  width: 151px;
+  height: 8px;
+  box-sizing: border-box;
+  border: 1px solid #c9fa75;
+  margin-bottom: 20px;
+}
+
+.skills_box2 {
+    @media (min-width: 900px) {
+    width: 302px;
+    height: 16px;
+    box-sizing: border-box;
+    border: 1px solid #c9fa75;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    width: 302px;
+    height: 16px;
+    box-sizing: border-box;
+    border: 1px solid #c9fa75;
+    margin-bottom: 20px;  
+  }
+  
+  width: 151px;
+  height: 8px;
+  box-sizing: border-box;
+  border: 1px solid #c9fa75;
+}
+
+.skills_header {
+  @media (min-width: 900px) {
+   color: #c9fa75;
+   font-weight: bold;
+   font-family: 'Electrolize', sans-serif;
+   font-size: 3rem;
+  }
+  
+  @media (min-width: 600px) {
+   color: #c9fa75;
+   font-weight: bold;
+   font-family: 'Electrolize', sans-serif;
+   font-size: 3rem;
+  }
+  
+   color: #c9fa75;
+   font-weight: bold;
+   font-family: 'Electrolize', sans-serif;
+   font-size: 1.5rem;
+}
+
+.skills {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1rem;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 600px) {
+  .skills { grid-template-columns: repeat(3, 1fr);   margin-bottom: 50px;}
+}
+
+@media (min-width: 900px) {
+  .skills { grid-template-columns: repeat(4, 1fr);   margin-bottom: 50px;}
+}

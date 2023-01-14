@@ -1,0 +1,85 @@
+.footer {
+    @media (min-width: 900px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background: #0B0B0B;
+      padding-bottom: 1rem;
+      margin: auto; 
+
+    }
+  
+    @media (min-width: 600px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;      
+      background: #0B0B0B;
+      padding-bottom: 1rem;
+      margin: auto; 
+    }
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background: #0B0B0B;
+    padding-bottom: 2rem;
+    margin: auto;
+}
+
+.footer_container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;  
+}
+
+.footer_icons_container {
+    margin-bottom: 1.5rem;
+}
+
+.footer_icons {
+   color: #c9fa75;
+   font-weight: bold;
+   font-family: 'Electrolize', sans-serif;
+   font-size: 1.5rem;
+   margin-right: 0.5rem;
+   text-decoration: none;
+   cursor: pointer;
+   transition: all ease-in 0.2s;
+}
+
+.footer_icons:hover {
+   color: #fff;  
+}
+
+.copyright {
+    @media (min-width: 900px) {
+    color: #272727;
+    font-weight: bold;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 0.8rem;
+    width: 400px; 
+  }
+  
+  @media (min-width: 600px) {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 0.8rem;
+    width: 400px; 
+  }
+  
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 0.8rem;
+  width: 200px;
+}
+
+
+
+
+
